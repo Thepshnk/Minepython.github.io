@@ -29,14 +29,14 @@ show_inventory = False
 
 # ===== ЗАГРУЗКА ТЕКСТУР ===== #
 textures = {
-    'grass': load_texture('textures/grass_block.png'),
-    'stone': load_texture('textures/stone.jpeg'),
-    'wood': load_texture('textures/wood.jpg'),
-    'water': load_texture('textures/water.png'),
-    'plank': load_texture('textures/doski.jpg'),
-    'leaf': load_texture('textures/leaves.jpg'),
-    'lava': load_texture('textures/lava.jpg'),
-    'dirt': load_texture('textures/zemlya.jpg')
+    'grass': load_texture('grass_block.png'),
+    'stone': load_texture('stone.jpeg'),
+    'wood': load_texture('wood.jpg'),
+    'water': load_texture('water.png'),
+    'plank': load_texture('doski.jpg'),
+    'leaf': load_texture('leaves.jpg'),
+    'lava': load_texture('lava.jpg'),
+    'dirt': load_texture('zemlya.jpg')
 }
 
 # Проверка загрузки текстур
@@ -176,5 +176,6 @@ player = FirstPersonController(
 )
 Sky(color=color.rgb(135, 206, 235))
 mouse.locked = True
+
 
 app.run()
